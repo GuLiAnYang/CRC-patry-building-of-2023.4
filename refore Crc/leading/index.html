@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>重温党之章，喜迎二十大</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="con">
+        <h1>欢迎登入</h1>
+        <div class="input-con">
+            <input type="text" placeholder=" " >
+            <label for="usename">账号</label>
+            
+        </div>
+        <div class="input-con"> 
+            <input type="password" placeholder=" ">
+            <label for="password">密码</label>
+           
+        </div>
+        <div class="rs-con">
+            <a href="javascript:" style="position: relative; left: 150px;" onclick="closeie();">忘记密码？</a>
+            <div>
+                <a href="../html/huitang.html"><button type="submit" alert="确定登录？">进入</button></a>
+                <button><a href="../html/huitang.html">注册</a></button>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    function closeie(){
+        if(confirm("您确定要关闭本页吗？"))
+        {
+            window.opener=null;
+            window.open('','_self');
+            window.close();
+        }else{}
+    }
+    </script>
+    
+</body>
+</html>
